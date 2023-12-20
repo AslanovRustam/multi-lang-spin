@@ -2,7 +2,7 @@
   "name": "bonanza-billion",
   "version": "0.1.0",
   "private": true,
-  "homepage": "./",
+  "homepage": "https://AslanovRustam.github.io/multi-lang-spin",
   "dependencies": {
     "gh-pages": "^6.0.0",
     "modern-normalize": "^2.0.0",
