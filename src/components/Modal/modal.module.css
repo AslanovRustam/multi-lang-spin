@@ -1,0 +1,171 @@
+.overvlow {
+  overflow: hidden;
+}
+.modalBackDrop {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transform: translateY(-100%);
+  opacity: 0;
+  height: 100%;
+  padding: 2em 0;
+  background: linear-gradient(
+    0deg,
+    rgba(37, 28, 28, 0.9) 0%,
+    rgba(37, 28, 28, 0.9) 100%
+  );
+  transition: all 0.3s ease-in-out;
+  overflow: auto;
+  z-index: 2;
+}
+.show {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.container {
+  position: relative;
+}
+.popUp {
+  width: 43em;
+  /* height: 58em; */
+}
+.heightAuto {
+  height: auto;
+}
+.stars {
+  position: absolute;
+  width: 17.25em;
+  left: 50%;
+  transform: translate(-50%);
+  top: -5em;
+}
+.hideStars {
+  display: none;
+}
+.button {
+  position: absolute;
+  top: 22.2em;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+  padding-top: 1em;
+  width: 12.28em;
+  height: 3.59em;
+  color: #fff;
+  text-shadow: 0 0.05em 0.038em rgba(0, 0, 0, 0.55);
+  font-family: Montserrat;
+  font-size: 1.625em;
+  line-height: 140%;
+  background-image: url(../../images/btnBg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  text-transform: uppercase;
+}
+.buttonPaddingLoss {
+  padding-top: 0.5em;
+}
+.button:hover,
+.button:focus {
+  filter: brightness(1.1);
+}
+.description {
+  position: absolute;
+  text-align: center;
+  width: 30em;
+  left: 50%;
+  transform: translate(-50%);
+  top: 10em;
+}
+.text {
+  color: #fffff6;
+  text-align: center;
+  font-size: 2.31em;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  font-family: MontserratAlternates;
+}
+.bonusCount {
+  text-align: center;
+  color: transparent;
+  /* text-shadow: 0 0.033em 0.066em rgba(0, 0, 0, 0.3); */
+  background-image: linear-gradient(#d5ff2e, #fbff1f, #ffc42e);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 7.5em;
+  font-weight: 800;
+  line-height: 120%;
+  font-family: MontserratAlternates;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.bonusText {
+  text-align: center;
+  color: transparent;
+  /* text-shadow: 0 0.033em 0.066em rgba(0, 0, 0, 0.3); */
+  background: linear-gradient(#d5ff2e, #fbff1f, #ffc42e);
+  background-clip: text;
+  font-size: 2.5em;
+  font-weight: 800;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  font-family: MontserratAlternates;
+  text-transform: uppercase;
+}
+
+.lose {
+  width: 10em;
+}
+.icon {
+  position: absolute;
+  width: 1.41em;
+  height: 1.41em;
+  right: 7em;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.icon:hover,
+.icon:focus {
+  scale: 1.1;
+  rotate: 0.25turn;
+}
+.default,
+.bonusValue,
+.bonusDescription {
+  font-family: MontserratAlternates;
+  font-size: 5.15em;
+  font-weight: 800;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: transparent;
+  background: linear-gradient(#d5ff2e, #fbff1f, #ffc42e);
+  background-clip: text;
+  text-transform: uppercase;
+}
+
+.bonusDescription {
+  font-size: 1.718em;
+  color: #ffffff;
+}
+.bonus {
+  width: 100%;
+}
+@media (orientation: portrait) {
+  .modalBackDrop {
+    font-size: 1.4em;
+  }
+  .popUp {
+    max-width: none;
+  }
+  .container {
+    font-size: 0.9em;
+  }
+}

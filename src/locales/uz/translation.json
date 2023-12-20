@@ -1,0 +1,24 @@
+{
+  "header": {
+    "text_1": "Frispinlar va depozit bonuslarining muntazam taqdim etilishlari",
+    "text_2": "sizni kazinoda kutmoqda!"
+  },
+  "first_spin": {
+    "default": "Birinchi aylanish",
+    "win": "ta frispinlar"
+  },
+  "second_spin": {
+    "default": "Ikkinchi<br></br> aylanish",
+    "win": "Depozit uchun<br></br> bonus"
+  },
+  "button": {
+    "spin": "Aylantirish",
+    "get_bonus": "Bonus olish"
+  },
+  "modal": {
+    "title": "Sizning yutug'ingiz",
+    "button": "Bonus olish",
+    "freespin": "ta frispinlar",
+    "bonuses": "Depozit uchun bonus"
+  }
+}

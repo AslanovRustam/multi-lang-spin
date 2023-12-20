@@ -1,0 +1,20 @@
+.girl {
+  position: absolute;
+  bottom: 0;
+  right: 11.2em;
+  width: 35.16em;
+}
+@media (orientation: portrait) {
+  .girl {
+    /* width: 26.34em; */
+    /* width: 24.04em;
+    top: 9em; */
+    /* width: 18.5em; */
+    width: 20.5em;
+    /* top: 10.5em; */
+    top: 12.5em;
+    transform: translateX(-50%);
+    left: 50%;
+    z-index: -1;
+  }
+}

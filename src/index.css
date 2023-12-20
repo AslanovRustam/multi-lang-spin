@@ -1,0 +1,156 @@
+@import "../node_modules/modern-normalize/modern-normalize.css";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url(./images/bg2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* overflow: hidden; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+html,
+body {
+  box-sizing: border-box;
+  /* font-size: 0.833vw; */
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  height: 100dvh;
+  overflow-x: hidden;
+  color: var(--white);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: MontserratAlternates;
+  font-weight: 600;
+  line-height: 100%;
+}
+img,
+video {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 600;
+  src: local("Montserrat"),
+    url(./fonts/Montserrat/Montserrat-SemiBold.ttf) format("opentype");
+}
+
+@font-face {
+  font-family: "MontserratAlternates";
+  font-weight: 800;
+  src: local("MontserratAlternates"),
+    url(./fonts/MontserratAlternates/MontserratAlternates-ExtraBold.ttf)
+      format("opentype");
+}
+@font-face {
+  font-family: "MontserratAlternates";
+  font-weight: 600;
+  src: local("MontserratAlternates"),
+    url(./fonts/MontserratAlternates/MontserratAlternates-SemiBold.ttf)
+      format("opentype");
+}
+@font-face {
+  font-family: "MontserratAlternates";
+  font-weight: 700;
+  src: local("MontserratAlternates"),
+    url(./fonts/MontserratAlternates/MontserratAlternates-Bold.ttf)
+      format("opentype");
+}
+@media (orientation: landscape) {
+  @media (max-aspect-ratio: 568/200) {
+    html {
+      font-size: 0.61vw;
+    }
+  }
+
+  @media (max-aspect-ratio: 568/220) {
+    html {
+      font-size: 0.67vw;
+    }
+  }
+
+  @media (max-aspect-ratio: 568/240) {
+    html {
+      font-size: 0.73vw;
+    }
+  }
+
+  @media (max-aspect-ratio: 568/260) {
+    html {
+      font-size: 0.79vw;
+    }
+  }
+
+  @media (max-aspect-ratio: 568/280) {
+    html {
+      font-size: 0.83333333vw;
+    }
+  }
+
+  @media (max-aspect-ratio: 568/300) {
+    html {
+      font-size: 0.9vw;
+    }
+  }
+  @media (max-aspect-ratio: 568/330) {
+    html {
+      font-size: 0.93vw;
+    }
+  }
+
+  @media (max-aspect-ratio: 568/360) {
+    html {
+      font-size: 0.97vw;
+    }
+  }
+
+  @media (max-aspect-ratio: 568/410) {
+    html {
+      font-size: 1.1vw;
+    }
+  }
+
+  @media (max-aspect-ratio: 568/460) {
+    html {
+      font-size: 1.2vw;
+    }
+  }
+
+  @media (max-aspect-ratio: 568/520) {
+    html {
+      font-size: 1.26vw;
+    }
+  }
+
+  @media (max-aspect-ratio: 568/560) {
+    html {
+      font-size: 1.32vw;
+    }
+  }
+}
+@media (orientation: portrait) {
+  html,
+  body {
+    font-size: 2.2vw;
+  }
+  body {
+    background-image: url(./images/bgMob2.png);
+  }
+}

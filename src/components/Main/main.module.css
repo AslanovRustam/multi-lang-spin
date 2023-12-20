@@ -1,0 +1,49 @@
+.main {
+  position: relative;
+  text-align: center;
+}
+.title {
+  margin-top: 0.2em;
+  color: transparent;
+  font-size: 3.75em;
+  font-size: 2.75em;
+  background-image: linear-gradient(#4b18cc, #8916b1, #911bbb);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+  font-family: MontserratAlternates;
+}
+
+.title::after {
+  content: attr(data-text);
+  position: absolute;
+  text-shadow: 0 0.05em 0.3em #d0f7ff;
+  background-image: none;
+  left: 0;
+  right: 0;
+  top: -0.1em;
+  z-index: -1;
+}
+.subTitle {
+  margin-top: 0.3em;
+  color: #5d2ca5;
+  font-size: 1.875em;
+  font-weight: 700;
+  line-height: 140%;
+  font-family: MontserratAlternates;
+}
+/* .girl {
+  position: absolute;
+  top: -2em;
+  right: 10em;
+  width: 35.16em;
+} */
+@media (orientation: portrait) {
+  .title {
+    padding: 0 0.9em;
+    line-height: 110%;
+    font-size: 2.91em;
+    font-size: 2.21em;
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "header": {
+    "text_1": "Distribuição regular de rodadas grátis e bônus de depósito",
+    "text_2": "eles estão esperando por você no cassino!"
+  },
+  "first_spin": {
+    "default": "Primeira giro",
+    "win": "rodadas grátis"
+  },
+  "second_spin": {
+    "default": "Segunda<br></br> giro",
+    "win": "Bônus de depósito de"
+  },
+  "button": {
+    "spin": "Gire",
+    "get_bonus": "Reseba um bônus"
+  },
+  "modal": {
+    "title": "Seus ganhos",
+    "button": "Reseba um bônus",
+    "freespin": "rodadas grátis",
+    "bonuses": "Bônus de depósito de"
+  }
+}

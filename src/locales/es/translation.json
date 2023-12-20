@@ -1,0 +1,24 @@
+{
+  "header": {
+    "text_1": "Distribuciones periódicas de giros gratis y bonificaciones sobre sus depósitos",
+    "text_2": "en el casino te esperan!"
+  },
+  "first_spin": {
+    "default": "Primer giro",
+    "win": "giros gratis"
+  },
+  "second_spin": {
+    "default": "Segunda<br></br> ronda",
+    "win": "Bono de<br></br> depósito del"
+  },
+  "button": {
+    "spin": "Gira",
+    "get_bonus": "Obtener bono"
+  },
+  "modal": {
+    "title": "Tus ganancias",
+    "button": "Obtener bono",
+    "freespin": "giros gratis",
+    "bonuses": "Bono de depósito del"
+  }
+}

@@ -1,0 +1,17 @@
+.header {
+  text-align: center;
+  margin-top: 1.9em;
+}
+/* .logo {
+  width: 12.875em;
+} */
+.logoContainer {
+  width: 12.875em;
+  height: 4.36em;
+  margin: 0 auto;
+}
+@media (orientation: portrait) {
+  .logoContainer {
+    width: 10.275em;
+  }
+}

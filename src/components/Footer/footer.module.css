@@ -1,0 +1,28 @@
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.footer {
+  position: absolute;
+  bottom: 2.375em;
+  left: 50%;
+  transform: translate(-50%);
+  /* margin: 0 auto; */
+  width: 65em;
+}
+.icon {
+  height: 1.75em;
+  width: auto;
+}
+@media (orientation: portrait) {
+  .footer {
+    width: 26em;
+    position: absolute;
+    bottom: 1em;
+  }
+  .list {
+    flex-wrap: wrap;
+    gap: 1em;
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "header": {
+    "text_1": "Remises régulières des tours gratuits et des bonus pour les dépôts",
+    "text_2": "t'attendent au casino!"
+  },
+  "first_spin": {
+    "default": "Premier tour",
+    "win": "tours gratuits"
+  },
+  "second_spin": {
+    "default": "Deuxième<br></br> tour",
+    "win": "de bonus pour<br></br>  le dépôt"
+  },
+  "button": {
+    "spin": "Faire tourner",
+    "get_bonus": "Recevoir le bonus"
+  },
+  "modal": {
+    "title": "Ton gain",
+    "button": "Récupérer <br></br>le bonus",
+    "freespin": "tours gratuits",
+    "bonuses": "de bonus pour le dépôt"
+  }
+}

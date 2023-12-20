@@ -1,0 +1,24 @@
+{
+  "header": {
+    "text_1": "Frispin və depozit bonuslarının müntəzəm paylanması sizi  gözləyir",
+    "text_2": "kazinoda sizi!"
+  },
+  "first_spin": {
+    "default": "Birinci fırlatma",
+    "win": "frispin"
+  },
+  "second_spin": {
+    "default": "İkinci<br></br> fırlatma",
+    "win": "epozit bonusu"
+  },
+  "button": {
+    "spin": "Fırlatmaq",
+    "get_bonus": "Bonus almaq"
+  },
+  "modal": {
+    "title": "Sənin uduşun",
+    "button": "Bonus almaq",
+    "freespin": "frispin",
+    "bonuses": "epozit bonusu"
+  }
+}

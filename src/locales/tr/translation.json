@@ -1,0 +1,24 @@
+{
+  "header": {
+    "text_1": "Düzenli ücretsiz çevirme ve para yatırma bonusları",
+    "text_2": "casinoda seni bekliyor!"
+  },
+  "first_spin": {
+    "default": "İlk çevirme",
+    "win": "ücretsiz çevirme"
+  },
+  "second_spin": {
+    "default": "İkinci<br></br> çevirme",
+    "win": "para yatırma<br></br> bonusu"
+  },
+  "button": {
+    "spin": "Çevir",
+    "get_bonus": "Bonus kazan"
+  },
+  "modal": {
+    "title": "Kazancın",
+    "button": "Bonus kazan",
+    "freespin": "ücretsiz çevirme",
+    "bonuses": "para yatırma bonusu"
+  }
+}

@@ -1,0 +1,142 @@
+.container {
+  position: relative;
+  margin: 1.56em auto 0;
+  width: 38.75em;
+  height: 37.5em;
+  background-image: url(../../images/bgSlots.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: 0 0;
+}
+.slots {
+  position: absolute;
+  left: 1em;
+  top: 1.4em;
+  display: flex;
+  justify-content: space-around;
+  height: 34.7em;
+  width: 36em;
+  overflow: hidden;
+}
+.slotItem {
+  animation: slotAnimation 1.5s infinite ease-in-out alternate;
+}
+.slotItem:nth-child(2) {
+  animation-delay: 0.3s;
+}
+.slotItem:nth-child(3) {
+  animation-delay: 0.6s;
+}
+.item_1_spin_1 {
+  transform: translateY(-119em);
+  transform: translateY(-48em);
+  transition: all 2s ease-in-out;
+}
+.item_2_spin_1 {
+  transform: translateY(-166em);
+  transition: all 2.5s ease-in-out;
+}
+.item_3_spin_1 {
+  transform: translateY(-36em);
+  transition: all 3.5s ease-in-out;
+}
+.item_1_spin_2 {
+  /* transform: translateY(-190em); */
+  transform: translateY(-179em);
+  transition: all 2s ease-in-out;
+}
+.item_2_spin_2 {
+  /* transform: translateY(-83em); */
+  transform: translateY(-72em);
+  transition: all 1.5s ease-in-out;
+}
+.item_3_spin_2 {
+  transform: translateY(-154em);
+  transform: translateY(-144em);
+  transition: all 3s ease-in-out;
+}
+.item_1_spin_3 {
+  transform: translateY(-214em);
+  transition: all 3s ease-in-out;
+}
+.item_2_spin_3 {
+  transform: translateY(-202em);
+  transition: all 2s ease-in-out;
+}
+.item_3_spin_3 {
+  transform: translateY(-48em);
+  transition: all 1.5s ease-in-out;
+}
+.item_1_spin_4 {
+  transform: translateY(-227em);
+  transition: all 3s ease-in-out;
+}
+.item_2_spin_4 {
+  transform: translateY(-226em);
+  transition: all 2s ease-in-out;
+}
+.item_3_spin_4 {
+  transform: translateY(-180em);
+  transition: all 3.5s ease-in-out;
+}
+.item_1_spin_start {
+  transform: translateY(-60em);
+  transition: all 3s ease-in-out;
+}
+.item_2_spin_start {
+  transform: translateY(-167em);
+  transition: all 2s ease-in-out;
+}
+.item_3_spin_start {
+  transform: translateY(-227em);
+  transition: all 3.5s ease-in-out;
+}
+
+.slot {
+  width: 14em;
+}
+.button {
+  position: absolute;
+  bottom: -1em;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+  /* padding: 1.193em 3.436em; */
+  padding-top: 1em;
+  width: 12.28em;
+  height: 3.59em;
+  color: #fff;
+  text-shadow: 0 0.05em 0.038em rgba(0, 0, 0, 0.55);
+  font-family: Montserrat;
+  font-size: 1.625em;
+  line-height: 140%;
+  background-image: url(../../images/btnBg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  text-transform: uppercase;
+}
+.button:hover,
+.button:focus {
+  filter: brightness(1.1);
+}
+@keyframes slotAnimation {
+  100% {
+    transform: translateY(1.25em);
+  }
+}
+@keyframes firstSpin {
+  0% {
+    transform: translateY(0em);
+  }
+  100% {
+    transform: translateY(-120.25em);
+  }
+}
+@media (orientation: portrait) {
+  .container {
+    margin: 16em auto 0;
+    margin: 18em auto 0;
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "header": {
+    "text_1": "Frequent distributions of free spins and deposit bonuses ",
+    "text_2": "await you at the casino!"
+  },
+  "first_spin": {
+    "default": "First spin",
+    "win": "free spins"
+  },
+  "second_spin": {
+    "default": "Second<br></br> spin",
+    "win": "deposit bonus"
+  },
+  "button": {
+    "spin": "Spin",
+    "get_bonus": "Claim bonus"
+  },
+  "modal": {
+    "title": "Your win",
+    "button": "Claim bonus",
+    "freespin": "free spins",
+    "bonuses": "deposit bonus"
+  }
+}

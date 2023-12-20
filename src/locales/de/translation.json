@@ -1,0 +1,24 @@
+{
+  "header": {
+    "text_1": "In diesem Casino gibt es regelmäßig ",
+    "text_2": "freispiele und Einzahlungsboni"
+  },
+  "first_spin": {
+    "default": "Erste Drehung",
+    "win": "Freispiele"
+  },
+  "second_spin": {
+    "default": "Zweite<br></br> Drehung",
+    "win": "Einzahlungsbonus"
+  },
+  "button": {
+    "spin": "Drehen",
+    "get_bonus": "Bonus erhalten"
+  },
+  "modal": {
+    "title": "Dein Gewinn",
+    "button": "Bonus erhalten",
+    "freespin": "Freispiele",
+    "bonuses": "Einzahlungsbonus"
+  }
+}
