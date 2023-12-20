@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/multi-lang-spin/static/css/main.2641dc79.css",
+    "main.js": "/multi-lang-spin/static/js/main.776d7101.js",
+    "static/media/bg2.png": "/multi-lang-spin/static/media/bg2.08a17835c392997515af.png",
+    "static/media/bgMob2.png": "/multi-lang-spin/static/media/bgMob2.21c79c26eb4302fd5ca4.png",
+    "static/media/Montserrat-SemiBold.ttf": "/multi-lang-spin/static/media/Montserrat-SemiBold.bb9c13378f11c7e56322.ttf",
+    "static/media/MontserratAlternates-ExtraBold.ttf": "/multi-lang-spin/static/media/MontserratAlternates-ExtraBold.be0c7493a022c76bed70.ttf",
+    "static/media/MontserratAlternates-Bold.ttf": "/multi-lang-spin/static/media/MontserratAlternates-Bold.104814841470be32b52f.ttf",
+    "static/media/MontserratAlternates-SemiBold.ttf": "/multi-lang-spin/static/media/MontserratAlternates-SemiBold.03445fae575ffe41b4a7.ttf",
+    "static/media/girl.png": "/multi-lang-spin/static/media/girl.06ffe7499fc45306be09.png",
+    "static/media/bgSlots.png": "/multi-lang-spin/static/media/bgSlots.3da38497461799d20b08.png",
+    "static/media/slot2.png": "/multi-lang-spin/static/media/slot2.bf499ee0856959a675b4.png",
+    "static/media/popUpDeposit.png": "/multi-lang-spin/static/media/popUpDeposit.9f35596f160368e9d4de.png",
+    "static/media/slot3.png": "/multi-lang-spin/static/media/slot3.db729868bffa9080fd7c.png",
+    "static/media/slot1.png": "/multi-lang-spin/static/media/slot1.99d0985efa77b596cbe1.png",
+    "static/media/spin1.png": "/multi-lang-spin/static/media/spin1.43a1d6d45a2096e3bdc6.png",
+    "static/media/spin2.png": "/multi-lang-spin/static/media/spin2.4a4328c541314b0a0ea8.png",
+    "static/media/logo.svg": "/multi-lang-spin/static/media/logo.a9f4e9c40e2c506dfc74c78e38e1ea23.svg",
+    "index.html": "/multi-lang-spin/index.html",
+    "static/media/getFetch.cjs": "/multi-lang-spin/static/media/getFetch.40f37ddea2378391108f.cjs",
+    "main.2641dc79.css.map": "/multi-lang-spin/static/css/main.2641dc79.css.map",
+    "main.776d7101.js.map": "/multi-lang-spin/static/js/main.776d7101.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2641dc79.css",
+    "static/js/main.776d7101.js"
+  ]
+}
